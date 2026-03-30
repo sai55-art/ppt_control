@@ -45,7 +45,7 @@ build/
 分发文件/
 
 # Model file (too large for GitHub, download separately)
-# hand_landmarker.task
+hand_landmarker.task
 
 # Logs
 *.log
