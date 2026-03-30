@@ -32,14 +32,13 @@ pip install -r requirements.txt
 
 ### 下载模型文件
 
-从Google MediaPipe下载手势识别模型：
+运行以下命令自动下载手势识别模型（约7.5MB）：
 
 ```bash
-# 下载 hand_landmarker.task (约7.8MB)
-# https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task
+python download_model.py
 ```
 
-或使用以下命令：
+或手动下载：
 
 ```bash
 curl -o hand_landmarker.task https://storage.googleapis.com/mediapipe-models/hand_landmarker/hand_landmarker/float16/latest/hand_landmarker.task
